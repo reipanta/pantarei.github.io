@@ -13,9 +13,7 @@ body {
 }
 
 nav {
-    background: #ffffff;
-    padding: 1rem;
-    border-bottom: 2px solid #000000;
+    padding: 1.5em 10em 1.5em;
 }
 
 nav ul {
@@ -25,21 +23,49 @@ nav ul {
 }
 
 nav li {
-    margin: 0 1rem;
+    margin: 0 1.5rem;
+
 }
 
 nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+    border-radius: 4px;   
 }
 
 nav a:hover {
     text-decoration: underline;
     text-underline-position: under;
 }
+
+.line {
+    border-bottom: 2px solid #333;
+    width: calc(100% - 20%);
+    margin: 0 auto;
+}
+
+.back-to-main{
+    color: rgb(0, 0, 0);
+    justify-content: left;
+    width: calc(100% - 20%);
+    margin: 0 auto;
+    padding: 1.5rem 0;     
+    text-decoration: none;
+    
+}
+.back-to-main a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.back-to-main a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
+
 
 main {
     max-width: 800px;
@@ -79,7 +105,8 @@ main {
     background: #0056b3;
 }
 
-.job, .project {
+.job,
+.project {
     margin-bottom: 2rem;
     padding: 1rem;
     border: 1px solid #ddd;
@@ -103,13 +130,10 @@ main {
         flex-direction: column;
         align-items: center;
     }
-    
+
     nav li {
-        margin: 0.25rem 0;
+        margin: 0.3rem 0;
     }
     
-    .hero img {
-        width: 150px;
-        height: 150px;
-    }
 }
+
